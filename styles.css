@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.card {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+.hobby {
+    background:rgba(187, 224, 170, 0.678);
+    padding: 0 20px;
+}
+
+.hobby li {
+    color: #6e7075;
+    margin-bottom: 10px;
+}
+.work {
+    background:rgb(236, 226, 170);
+    width: 100%;
+}
+.work td {
+    padding-bottom: 10px;
+}
+
+.work td:nth-child(2) {
+    color: #767d8d;
+}
+
+.work td:nth-child(3) {
+    color: #5e8f87;
+}
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+#avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-left: 15px;
+    border-radius: 30px;
+}
+
+a {
+    color: #4d4d4d;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover {
+    text-decoration:  underline;
+    font-size: 17px;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #0f141e;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-row {
+margin-bottom: 10px;
+display: flex;
+}
+
+.form-row .form-group{
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px) */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 40px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
